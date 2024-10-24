@@ -12,7 +12,7 @@ header ul{
     list-style: none;
     gap: 50px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 header button {
@@ -64,4 +64,71 @@ section button {
 section h5 {
     font-family: sans-serif;
     font-size: 17px;
+}
+
+.about {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 300px;
+}
+
+.margin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    background-color: #473BF0;
+}
+
+.margin h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.margin p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.margin h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.skirinshod {
+    width: 100%;
+}
+
+
+.airlar {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+footer h1 {
+    font-family: sans-serif;
+}
+
+footer ol {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+footer ol li{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
 }
